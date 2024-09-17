@@ -1,0 +1,47 @@
+.skill{
+  margin: 2%;
+  padding: 4%;
+  border-radius: 20px;
+  background-color: rgb(76, 76, 176);
+  height: 600px;
+  color: rgb(109, 121, 121);
+}
+.skill1{
+    margin-left: 300px;
+    
+}
+.skill2{
+    display:inline-block; 
+    
+    padding-right: 100px; 
+}
+.skill3{
+    display: inline-block;
+    padding-right: 100px;  
+    
+}
+.skill4{
+    display: inline-block; 
+    padding-right: 100px; 
+     
+}
+.skill11{
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+.skill22{
+    display:inline-block; 
+    padding-right: 100px; 
+   
+}
+.skill33{
+    display: inline-block;
+    padding-right: 100px; 
+    
+}
+.skill44{
+    display: inline-block; 
+    padding-right: 100px; 
+     
+}

@@ -1,0 +1,35 @@
+.about1 {
+  margin: 0%;
+  padding: 4%;
+  background-color: rgb(21, 21, 22);
+  height: 400px;
+  color: rgb(109, 121, 121);
+}
+.about2 {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.link1 {
+  display: inline-block;
+  padding-right: 10px;
+}
+.link2 {
+  padding-right: 10px;
+  display: inline-block;
+}
+.link3 {
+  display: inline-block;
+  padding-right: 10px;
+}
+.link4 {
+  padding-right: 10px;
+  display: inline-block;
+}
+.link5 {
+  display: inline-block;
+  padding-right: 10px;
+}
+.link6 {
+  padding-right: 10px;
+  display: inline-block;
+}

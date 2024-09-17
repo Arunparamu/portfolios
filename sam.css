@@ -1,0 +1,79 @@
+/* Container */
+.header {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Image Animation */
+  .header0 {
+    border-radius: 50%;
+    animation: bounceIn 1.5s ease-in-out;
+  }
+  
+  /* Link Animations */
+  .sec1, .sec11, .sec2, .sec3, .sec4 {
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  .sec1 a, .sec11 a, .sec2 a, .sec3 a, .sec4 a {
+    color: rgb(109, 121, 121);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .sec1 a:hover, .sec11 a:hover, .sec2 a:hover, .sec3 a:hover, .sec4 a:hover {
+    color: #007bff;
+  }
+  
+  /* Header Text Animations */
+  .header1 {
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  .header2 {
+    animation: fadeInUp 2.5s ease-in-out;
+  }
+  
+  .header3 {
+    animation: fadeInUp 3s ease-in-out;
+  }
+  
+  /* Keyframes for Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
